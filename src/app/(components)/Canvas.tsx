@@ -5,9 +5,5 @@ interface CanvasProps {
 }
 
 export const Canvas = ({ width, height, color }: CanvasProps) => {
-  return (
-    <div
-      className="canvas" // Add a class name for styling
-    ></div>
-  );
+  return <div id="canvas"></div>;
 };
